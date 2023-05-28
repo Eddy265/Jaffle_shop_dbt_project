@@ -1,0 +1,6 @@
+packages:
+  - package: fivetran/github
+    version: 0.7.0
+    
+  - package: dbt-labs/snowplow
+    version: 0.7.3 # version number
