@@ -4,3 +4,7 @@ packages:
 
   - package: fivetran/github
     version: 0.7.0
+
+  - package: data-mie/dbt_profiler
+    version: 0.4.1
+
