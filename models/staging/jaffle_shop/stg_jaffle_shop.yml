@@ -28,6 +28,7 @@ models:
                 - returned
                 - return_pending
                 - placed
+                - success
       - name: customer_id
         tests:
           - relationships:
