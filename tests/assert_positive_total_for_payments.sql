@@ -10,6 +10,6 @@ select
     status,
     sum(amount) as total_amount
 from payments
---where status = 'success'
+where status = 'success'
 group by 1,2
-having total_amount < 0
+having sum(amount) < 0

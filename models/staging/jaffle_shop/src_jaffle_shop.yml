@@ -3,8 +3,8 @@ version: 2
 sources:
   - name: jaffle_shop
     description: a clone of the snowflake raw database with the jaffle_shop schema.
-    database: raw
-    schema: jaffle_shop
+    database: jaffle_shop
+    schema: public
     tables:
       - name: customers
         description: raw data for the customers table
